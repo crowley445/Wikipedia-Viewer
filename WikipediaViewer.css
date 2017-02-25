@@ -1,0 +1,52 @@
+body,
+.flex-div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+#main-div{
+  width: 100%;
+}
+
+#search-container{
+  width: 100%;  
+  box-shadow: 0px 2px 2px #EBEBEB;
+}
+
+#search-div{
+  padding: 2rem;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#search-div .btn{
+  margin-left: .5rem;
+}
+
+#results-div {
+  align-items: stretch;
+}
+
+#results-div a:nth-child(even) div{
+  background-color: #F8F8F8;
+}
+#results-div a:first-child div{
+  padding-top: 2rem;
+}
+#results-div a:last-child div{
+  padding-bottom:4rem;
+}
+.article-div{
+  padding: 1rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+
